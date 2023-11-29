@@ -21,9 +21,9 @@ Preinstalled with Droplet
 
 ## Install WireGuard
 
-Followed tutorial at [theMatrixDev]https://thematrix.dev/setup-wireguard-vpn-server-with-docker/.
+Followed tutorial at [theMatrixDev](https://thematrix.dev/setup-wireguard-vpn-server-with-docker/).
 
-Additional tutorial at [Smart Home Beginner]https://www.smarthomebeginner.com/wireguard-docker-compose-guide-2023/ helped with personal understanding.
+Additional tutorial at [Smart Home Beginner](https://www.smarthomebeginner.com/wireguard-docker-compose-guide-2023/) helped with personal understanding.
 
 ### Create directories and yml file
 ```bash
@@ -74,7 +74,7 @@ run `docker compose logs -f wireguard` to get the QR code for phone1, then open 
 Screenshots of device ip address before and after activating the tunnel
 
 ## Find and connect laptop
-copy the file `peer_pc1` from `~/wireguard/config/peer_pc1` to your PC and use it to set up a tunnel on the [WireGuard app]https://www.wireguard.com/install/. Once your tunnel is set up, click activate.
+copy the file `peer_pc1` from `~/wireguard/config/peer_pc1` to your PC and use it to set up a tunnel on the [WireGuard app](https://www.wireguard.com/install/). Once your tunnel is set up, click activate.
 
 Screenshots of tunnel working, before screen on the left and after screen on the right.
 
