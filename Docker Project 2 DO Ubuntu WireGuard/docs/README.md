@@ -71,11 +71,15 @@ run `sudo docker compose up -d`
 ## Find and connect mobile device
 run `docker compose logs -f wireguard` to get the QR code for phone1, then open the Wireguard VPN app on your mobile device, create a new tunnel, and select `Create from QR code`. 
 
-Screenshots of device ip address before and after activating the tunnel
+Screenshot of device ip address before activating tunnel:
 ![Mobile before](./assets/MobileBefore.png "Before tunnel activated")
+
+Screenshot of device ip address after activating tunnel:
+![Mobile after](./assets/MobileAfter.png "After tunnel activated")
 
 ## Find and connect laptop
 copy the file `peer_pc1` from `~/wireguard/config/peer_pc1` to your PC and use it to set up a tunnel on the [WireGuard app](https://www.wireguard.com/install/). Once your tunnel is set up, click activate.
 
 Screenshots of tunnel working, before screen on the left and after screen on the right.
+![PC IP before and after tunnel acticated](./assets/WireGuardPC.png "PC IP before and after tunnel acticated")
 
